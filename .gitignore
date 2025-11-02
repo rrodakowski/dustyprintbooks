@@ -1,0 +1,17 @@
+# Python virtual environment
+venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Editor files
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Posts (optional, if you want to ignore generated posts)
+# posts/*.md
