@@ -98,8 +98,9 @@ def generate_index(posts):
         f.write('  <link rel="stylesheet" href="tufte.css">\n')
         f.write('  <link rel="stylesheet" href="site-custom.css">\n')
         f.write('</head>\n<body>\n')
-        f.write('<header>\n')
-        f.write('  <h1>Dusty Print Books</h1>\n')
+        f.write('<header class="site-header">\n')
+        f.write('  <img src="img/dustyprintbooks-bw.svg" alt="Dusty Print Books Logo" class="site-logo" />\n')
+        f.write('  <h1 class="site-title">Dusty Print Books</h1>\n')
         f.write('</header>\n')
         f.write('<article>\n')
         for post in posts:
